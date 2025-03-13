@@ -1,53 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tim QA</title>
- 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Визитка</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+        .business-card {
+            width: 200px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 100px;
+            background-color: white;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: %;
+            margin-bottom: 15px;
+        }
+        .name {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .position {
+            font-size: 1em;
+            color: #666;
+            margin: 5px 0;
+        }
+        
+.title {
+            font-size: 15px;
+            color: #777;
+            margin: 10px 0;
+        }
 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
-  <link rel="stylesheet" href="style.css">
 
+        .contact {
+            font-size: 0.9em;
+            color: #333;
+        }
+    </style>
 </head>
-
 <body>
-
-<!-- Vizitka --> 
-  <div class="iam">
-    <div class="container mycontainer">
-      <div class="box">
-        <img class="box-img" src="bug.png" alt="">
-      </div>
-      <div class="about">
-        <h1 class="title">Tim QA</h1>
-        <h2 class="subtitle">Исчерпывающее тестирование невожможно</h2>
-        
-
-        <div class="links">
-          <a class="link" alt="" href="https://t.me/t" target="_ blank"><i class='bx bxl-telegram'></i></a>
-          
-          <a class="link" href="https://vk.com/Tim Tur" target="_ blank"><i class='bx bxl-vk'></i></a>
-          <a class="link" href="https://github.com/Tim-QA-Tur" target="_ blank"><i class='bx bxl-github'></i></a>
-          
-        </div>
-        
-<div class="contact">Телефон: <a href="tel:+79161234567">+7 (916) 123-45-67</a></div>
-        <div class="contact">Email: <a href="mailto:5709037@mail.ru">5709037@mail.ru</a></div>
-        <div class="contact">Сайт: <a href="https://www.mail.ru" target="_blank">www.mail.ru</a></div>
-    
-            <button class="men" href=""><p>Нажми</button>
-          <script type="text/javascript" src="js.js"></script>      
-        </div>
-      </div>
+    <div class="business-card">
+        <img src="bug.png" alt="Аватар" class="avatar">
+        <div class="name">Tim QA</div>
+        <div class="title">Исчерпывающее тестирование невожможно</div>
+        <div class="contact">Телефон: <a href="tel:+79161234567">+7 (916) 123-45-67</a></div>
+        <div class="contact">Email: <a href="mailto:QA@example.com">QA@example.com</a></div>
+        <div class="contact">Сайт: <a href="https://www.example.com" target="_blank">www.example.com</a></div>
     </div>
-  </div>
-  
 </body>
-
 </html>
